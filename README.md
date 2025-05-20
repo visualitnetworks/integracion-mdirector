@@ -1,6 +1,8 @@
-# integracion-mdirector: Envía datos del formulario a MDirector usando usuario, contraseña y client_id (sin client_secret)
+
 
 # Integración MDirector - Visualit
+
+integracion-mdirector: Envía datos del formulario a MDirector usando usuario, contraseña y client_id (sin client_secret)
 
 Este plugin personalizado de WordPress realiza dos funciones principales:
 
