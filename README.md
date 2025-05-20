@@ -6,7 +6,8 @@ integracion-mdirector: Envía datos del formulario a MDirector usando usuario, c
 
 Este plugin personalizado de WordPress realiza dos funciones principales:
 
-- **Panel de administración para configurar credenciales**
+# Panel de administración para configurar credenciales
+
 - Permite guardar usuario y contraseña de MDirector desde el wp-admin. Se valida haciendo una
 llamada POST a: https://app.mdirector.com/oauth2
 Con el cuerpo:
@@ -17,7 +18,8 @@ Con el cuerpo:
 
 NOTA: No requiere client_secret para el client_id=webapp
 
-- **Envío de datos desde Contact Form 7**
+# Envío de datos desde Contact Form 7
+
 - Cuando un formulario se envía, el plugin:
 - Extrae los campos del form
 - Solicita un access_token
