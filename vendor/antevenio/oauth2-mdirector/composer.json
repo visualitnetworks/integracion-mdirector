@@ -1,0 +1,34 @@
+{
+    "name": "antevenio/oauth2-mdirector",
+    "description": "Oauth client library specific to access mdirector api services",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imota",
+            "email": "imota@antevenio.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MDOAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MDOAuth\\Test\\": "test/"
+        }
+    },
+    "bin": [ "bin/mdirector-oauth-client" ],
+    "require": {
+        "ext-json": "*",
+        "league/oauth2-client": "^2.3",
+        "symfony/console": "*"
+    },
+    "require-dev": {
+        "antevenio/md-phpqa": "^0.1.0",
+        "phpunit/phpunit": "^5.7",
+        "php-coveralls/php-coveralls": "^2.1",
+        "mockery/mockery": "^1.2"
+    }
+}

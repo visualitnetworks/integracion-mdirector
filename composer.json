@@ -1,0 +1,6 @@
+{
+    "require": {
+        "antevenio/oauth2-mdirector": "^1.0",
+        "league/oauth2-client": "^2.6"
+    }
+}
